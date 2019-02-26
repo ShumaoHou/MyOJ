@@ -57,7 +57,7 @@ if __name__ == '__main__':
             pair = pairs[i].split()
             p.append(pair)
         name = []
-        size = 16
+        size = 13
         pre = [0 for i in range(size)]
         dp = [0 for i in range(1 << size)]
         inputPre()
